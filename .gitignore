@@ -3,3 +3,4 @@
 data.code-workspace
 .venv
 /datasets/endomondoHR.json
+/datasets/transactions.csv
