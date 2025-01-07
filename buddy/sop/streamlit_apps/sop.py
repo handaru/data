@@ -18,7 +18,7 @@ from llmsherpa.readers import LayoutPDFReader
 from llama_index.llms.ollama import Ollama
 
 # Create an instance of the OLLAMA model
-llm = Ollama(model="llama3", request_timeout=60.0)
+llm = Ollama(model="llama3", request_timeout=240.0)
 logger.debug("Model loaded successfully")
 
 uploaded_file = st.file_uploader("Choose a file", type=(["pdf"]))
