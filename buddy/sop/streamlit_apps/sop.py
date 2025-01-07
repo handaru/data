@@ -18,7 +18,7 @@ from llmsherpa.readers import LayoutPDFReader
 from llama_index.llms.ollama import Ollama
 
 # Create an instance of the OLLAMA model
-llm = Ollama(model="llama3", request_timeout=240.0)
+llm = Ollama(model="llama3", request_timeout=60.0)
 logger.debug("Model loaded successfully")
 
 uploaded_file = st.file_uploader("Choose a file", type=(["pdf"]))
@@ -35,15 +35,13 @@ if uploaded_file is not None:
     time1 = time.time()
     # Define the URL of the PDF document and the LLM-Sherpa API URL
     llmsherpa_api_url = "http://localhost:5010/api/parseDocument?renderFormat=all"
-    pdf_url = "./pdf_dir/2024q1-alphabet-earnings-release-pdf.pdf"
+    pdf_url = "./" + file_path
 
     pdf_reader = LayoutPDFReader(llmsherpa_api_url)
     logger.debug("PDF reader created successfully")
 
     # Read the PDF document
     doc = pdf_reader.read_pdf(pdf_url)
-    time2 = time.time()
-    logger.debug("Time to read PDF: {}", time2 - time1)
     logger.debug("PDF document read successfully")
 
     # Find the section containing the Q1 2024 Financial Highlights
@@ -72,5 +70,7 @@ if uploaded_file is not None:
             # Show the response
             st.write("Response: " + resp.text)
             logger.debug("Response: {}", resp.text) 
+            time2 = time.time()
+            logger.debug("Time to analyze PDF: {}", time2 - time1)
 else:
     st.write("No PDF file has been uploaded")
