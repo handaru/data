@@ -23,6 +23,8 @@ cd buddy/sop
 # Install dependencies
 docker run -p 5010:5001 ghcr.io/nlmatics/nlm-ingestor:latest 
 ollama run llama3
+pip install streamlit_pdf_viewer 
+pip install 
 ```
 
 ## Usage
