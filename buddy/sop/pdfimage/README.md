@@ -1,6 +1,6 @@
-# PDF Image Extraction Project
+# PDF Image Summarizer Project
 
-This project involves extracting images from PDF files using the `readpdfimg.ipynb` notebook. Follow the steps below to set up and install the necessary dependencies.
+This project involves extracting images from a PDF file and then summarize using llama3 model. Follow the steps below to set up and install the necessary dependencies.
 
 ## Prerequisites
 
