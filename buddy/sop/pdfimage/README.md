@@ -26,9 +26,9 @@ Ensure you have the following installed on your system:
     ```sh
     pip install -r requirements.txt
     ```
-    Install tesseract for Windows: https://github.com/UB-Mannheim/tesseract/wiki
-    Install pdftoimage: https://pdf2image.readthedocs.io/en/latest/installation.html
-    Install poppler for Windows: https://github.com/oschwartz10612/poppler-windows/releases/
+    Install tesseract for Windows: https://github.com/UB-Mannheim/tesseract/wiki  
+    Install pdftoimage: https://pdf2image.readthedocs.io/en/latest/installation.html  
+    Install poppler for Windows: https://github.com/oschwartz10612/poppler-windows/releases/  
 
 
 ## Usage
