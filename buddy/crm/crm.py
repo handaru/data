@@ -51,7 +51,7 @@ st.markdown(
 )
 
 # Define llm model
-llm = Ollama(model="llama3:latest")
+llm = Ollama(model="gemma3:4b")
 
 
 # Set title
