@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://www.kdnuggets.com/a-beginners-guide-to-mastering-gemini-google-sheets",
+    "title": "A Beginner’s Guide to Mastering Gemini + Google Sheets",
+    "description": "In this article, we'll go through the implementation of Gemini with Google Sheets.",
+    "author": "Cornellius Yudha Wijaya",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/how-to-combine-streamlit-pandas-and-plotly-for-interactive-data-apps",
+    "title": "How to Combine Streamlit, Pandas, and Plotly for Interactive Data Apps",
+    "description": "With just two Python files and a handful of methods, you can build a complete dashboard that rivals expensive business intelligence tools.",
+    "author": "Vinod Chugani",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/how-to-learn-ai-for-data-analytics-in-2025",
+    "title": "How to Learn AI for Data Analytics in 2025",
+    "description": "Learn these AI tools to stay relevant as a data professional in 2025.",
+    "author": "Natassha Selvaraj",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/automate-data-quality-reports-with-n8n-from-csv-to-professional-analysis",
+    "title": "Automate Data Quality Reports with n8n: From CSV to Professional Analysis",
+    "description": "Analyze any CSV dataset from a URL and generate professional quality reports with n8n",
+    "author": "Vinod Chugani",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/7-popular-llms-explained-in-7-minutes",
+    "title": "7 Popular LLMs Explained in 7 Minutes",
+    "description": "Get a quick overview of GPT, BERT, LLaMA, and more!",
+    "author": "Kanwal Mehreen",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/vibe-coding-a-speed-reading-app-with-python-in-just-15-minutes",
+    "title": "Vibe Coding a Speed Reading App with Python in Just 15 Minutes",
+    "description": "Less scrolling, more focus. In this 15-minute Python project, we’ll vibe-code a clean, distraction-free speed reading app.",
+    "author": "Bala Priya C",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/10-free-ai-tools-thatll-save-you-10-hours-a-week",
+    "title": "10 FREE AI Tools That’ll Save You 10+ Hours a Week",
+    "description": "No tech skills needed. Just tools that work, free to use, and actually helpful in your daily work life.",
+    "author": "Kanwal Mehreen",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/make-sense-of-a-10k-line-github-repos-without-reading-the-code",
+    "title": "Make Sense of a 10K+ Line GitHub Repos Without Reading the Code",
+    "description": "No time to read huge GitHub projects? This tool builds interactive diagrams from the code — FastAPI tested.",
+    "author": "Kanwal Mehreen",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/build-a-data-cleaning-validation-pipeline-in-under-50-lines-of-python",
+    "title": "Build a Data Cleaning & Validation Pipeline in Under 50 Lines of Python",
+    "description": "Clean and validate messy data with a compact Python pipeline that fits into any workflow.",
+    "author": "Bala Priya C",
+    "date": "",
+    "tags": []
+  },
+  {
+    "url": "https://www.kdnuggets.com/building-ai-agent-with-llama-cpp",
+    "title": "Building AI Agents with llama.cpp",
+    "description": "This guide will walk you through the entire process of setting up and running a llama.cpp server on your local machine, building a local AI agent, and testing it with a variety of prompts.",
+    "author": "Abid Ali Awan",
+    "date": "",
+    "tags": []
+  }
+]
