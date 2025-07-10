@@ -2,7 +2,6 @@
 .ipynb_checkpoints
 data.code-workspace
 .venv
-/data_science/mynlp.ipynb
 /datasets/endomondoHR.json
 /datasets/transactions.csv
 buddy/risk/KERTAS KERJA BOOKING.xlsx
