@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 from pandasai import SmartDataframe
 
-model = LocalLLM(api_base="http://localhost:11434/v1", model="gemma3:4b")
+model = LocalLLM(api_base="http://localhost:11434/v1", model="qwen2.5-coder:latest")
 
 st.title("Data analysis with PandasAI")
 
