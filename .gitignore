@@ -3,6 +3,7 @@
 data.code-workspace
 .venv
 /datasets/endomondoHR.json
+/datasets/cloud_run_log.json
 /datasets/transactions.csv
 buddy/risk/KERTAS KERJA BOOKING.xlsx
 buddy/risk/modeling_darren copy.ipynb
