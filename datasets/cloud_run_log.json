@@ -1,0 +1,641 @@
+[
+  {
+    "insertId": "MTIzNjQ5MjQ2Nw",
+    "jsonPayload": {
+      "detailedState": "CONFIRMED",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "description": "We are experiencing an  issue with Cloud Run beginning at Wednesday, 2025-09-03 23:12 PDT.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2025-09-03 03:30 PDT with current details.\n\nWe apologize to all who are affected by the disruption.",
+      "workaround": "Customers can try to use GPU in other regions if they have available quota.",
+      "relevance": "RELATED",
+      "symptom": "Impacted customer requests will get 500/429 responses. At present 429/500 responses seems to be 100% for the impacted customers/projects.",
+      "nextUpdateTime": "2025-09-03T10:30:00Z",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "category": "INCIDENT",
+      "impactedLocations": "['us-central1']",
+      "impactedProductIds": "['9D7d2iNBQWN24zc1VamE']",
+      "impactedProducts": "['Cloud Run']",
+      "state": "ACTIVE",
+      "title": "Cloud Run GPU user requests failing in us-central1",
+      "startTime": "2025-09-03T07:25:03Z",
+      "updateTime": "2025-09-03T08:57:25.411033Z"
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "event_id": "PMGMHYM",
+        "location": "global",
+        "resource_container": "1076293102351"
+      }
+    },
+    "timestamp": "2025-09-03T08:57:15.950779Z",
+    "labels": {
+      "servicehealth.googleapis.com/updated_fields": "[]",
+      "servicehealth.googleapis.com/new_event": "true"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-03T08:57:27.860582655Z"
+  },
+  {
+    "insertId": "MjAxMzUxNjUyNw",
+    "jsonPayload": {
+      "description": "We are experiencing an  issue with Cloud Run beginning at Wednesday, 2025-09-03 00:25 PDT.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2025-09-03 05:30 PDT with current details.\n\nWe apologize to all who are affected by the disruption.",
+      "category": "INCIDENT",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "state": "ACTIVE",
+      "nextUpdateTime": "2025-09-03T12:30:00Z",
+      "impactedProducts": "['Cloud Run']",
+      "startTime": "2025-09-03T07:25:03Z",
+      "symptom": "Impacted customer requests will get 500/429 responses. At present 429/500 responses seems to be 100% for the impacted customers/projects.",
+      "relevance": "RELATED",
+      "title": "Cloud Run GPU user requests failing in us-central1",
+      "impactedLocations": "['us-central1']",
+      "updateTime": "2025-09-03T10:19:11.196684Z",
+      "impactedProductIds": "['9D7d2iNBQWN24zc1VamE']",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "detailedState": "CONFIRMED",
+      "workaround": "Customers can try to use GPU in other regions if they have available quota."
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "event_id": "PMGMHYM",
+        "location": "global",
+        "resource_container": "1076293102351"
+      }
+    },
+    "timestamp": "2025-09-03T10:19:07.409427Z",
+    "labels": {
+      "servicehealth.googleapis.com/updated_fields": "['description']",
+      "servicehealth.googleapis.com/new_event": "false"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-03T10:19:14.751857856Z"
+  },
+  {
+    "insertId": "MzU1MDk2NDk5Ng",
+    "jsonPayload": {
+      "symptom": "Impacted customer requests will get 500/429 responses. At present 429/500 responses may be up to 100% for the impacted customers/projects.",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "description": "Mitigation work is currently underway by our engineering team.\n\nThe mitigation is expected to complete by Wednesday, 2025-09-03 07:00 PDT.\n\n\n\nWe will provide more information by Wednesday, 2025-09-03 06:00 PDT.",
+      "detailedState": "CONFIRMED",
+      "impactedProducts": "['Cloud Run']",
+      "updateTime": "2025-09-03T12:01:29.859763Z",
+      "state": "ACTIVE",
+      "impactedProductIds": "['9D7d2iNBQWN24zc1VamE']",
+      "category": "INCIDENT",
+      "workaround": "Customers can try to use GPU in other regions if they have available quota.",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "impactedLocations": "['us-central1']",
+      "relevance": "RELATED",
+      "title": "Cloud Run GPU user requests failing in us-central1",
+      "nextUpdateTime": "2025-09-03T13:00:00Z",
+      "startTime": "2025-09-03T07:25:03Z"
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "resource_container": "1076293102351",
+        "event_id": "PMGMHYM",
+        "location": "global"
+      }
+    },
+    "timestamp": "2025-09-03T12:01:22.871072Z",
+    "labels": {
+      "servicehealth.googleapis.com/new_event": "false",
+      "servicehealth.googleapis.com/updated_fields": "['description','symptom']"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-03T12:01:32.948606583Z"
+  },
+  {
+    "insertId": "MTUxODUzNTI2Ng",
+    "jsonPayload": {
+      "detailedState": "CONFIRMED",
+      "updateTime": "2025-09-03T12:51:46.844228Z",
+      "workaround": "Customers can try to use GPU in other regions if they have available quota.",
+      "impactedLocations": "['us-central1']",
+      "startTime": "2025-09-03T07:25:03Z",
+      "state": "ACTIVE",
+      "title": "Cloud Run GPU user requests failing in us-central1",
+      "symptom": "Impacted customer requests will get 500/429 responses. At present 429/500 responses may be up to 100% for the impacted customers/projects.",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "category": "INCIDENT",
+      "impactedProductIds": "['9D7d2iNBQWN24zc1VamE']",
+      "impactedProducts": "['Cloud Run']",
+      "relevance": "RELATED",
+      "description": "Mitigation work is currently underway by our engineering team.\n\nThe mitigation is expected to complete by Wednesday, 2025-09-03 07:00 PDT.\n\n\n\nWe will provide more information by Wednesday, 2025-09-03 08:00 PDT.",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "nextUpdateTime": "2025-09-03T15:00:00Z"
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "location": "global",
+        "resource_container": "1076293102351",
+        "event_id": "PMGMHYM"
+      }
+    },
+    "timestamp": "2025-09-03T12:51:38.584692Z",
+    "labels": {
+      "servicehealth.googleapis.com/new_event": "false",
+      "servicehealth.googleapis.com/updated_fields": "['description']"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-03T12:51:49.971038596Z"
+  },
+  {
+    "insertId": "MTAzNTcxNTUwNQ",
+    "jsonPayload": {
+      "state": "CLOSED",
+      "impactedProductIds": "['9D7d2iNBQWN24zc1VamE']",
+      "title": "Cloud Run GPU user requests failing in us-central1",
+      "detailedState": "RESOLVED",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "impactedLocations": "['us-central1']",
+      "workaround": "Customers can try to use GPU in other regions if they have available quota.",
+      "impactedProducts": "['Cloud Run']",
+      "startTime": "2025-09-03T07:25:03Z",
+      "relevance": "RELATED",
+      "endTime": "2025-09-03T14:14:16.797486Z",
+      "symptom": "Impacted customer requests will get 500/429 responses. At present 429/500 responses may be up to 100% for the impacted customers/projects.",
+      "updateTime": "2025-09-03T14:14:26.484202Z",
+      "category": "INCIDENT",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "description": "The issue with Cloud Run is believed to be affecting a very small number of customers and our Engineering Team is working on it.\n\nIf you have questions or are impacted, please open a case with the Support Team and we will work with you until this issue is resolved.\n\nNo further updates will be provided here.\n\nWe thank you for your patience while we're working on resolving the issue."
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "resource_container": "1076293102351",
+        "event_id": "PMGMHYM",
+        "location": "global"
+      }
+    },
+    "timestamp": "2025-09-03T14:14:19.276306Z",
+    "labels": {
+      "servicehealth.googleapis.com/new_event": "false",
+      "servicehealth.googleapis.com/updated_fields": "['description','state']"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-03T14:14:28.715743316Z"
+  },
+  {
+    "insertId": "MTE3NTk2NzYxNA",
+    "jsonPayload": {
+      "relevance": "PARTIALLY_RELATED",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "startTime": "2025-09-05T06:19:40.803Z",
+      "state": "ACTIVE",
+      "title": "Cloud Monitoring users may experience an issue in us-west1 region",
+      "detailedState": "CONFIRMED",
+      "impactedProducts": "['Cloud Monitoring']",
+      "category": "INCIDENT",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "description": "We are experiencing an  issue with Cloud Monitoring beginning at Thursday, 2025-09-04 23:19 PDT.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Friday, 2025-09-05 02:00 PDT with current details.\n\nWe apologize to all who are affected by the disruption.",
+      "impactedProductIds": "['3zaaDb7antc73BM1UAVT']",
+      "impactedLocations": "['']",
+      "nextUpdateTime": "2025-09-05T09:00:00Z",
+      "updateTime": "2025-09-05T08:25:12.513725Z",
+      "workaround": "None at this time.",
+      "symptom": "The impacted customers in us-west1 region may observe delays or unavailability when querying metrics."
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "location": "global",
+        "resource_container": "1076293102351",
+        "event_id": "TYVBVYT"
+      }
+    },
+    "timestamp": "2025-09-05T08:24:51.675912Z",
+    "labels": {
+      "servicehealth.googleapis.com/new_event": "true",
+      "servicehealth.googleapis.com/updated_fields": "[]"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-05T08:25:17.036987087Z"
+  },
+  {
+    "insertId": "ODIyNzAwMDMw",
+    "jsonPayload": {
+      "title": "Cloud Monitoring users may experience an issue in us-west1 region",
+      "detailedState": "CONFIRMED",
+      "impactedProductIds": "['3zaaDb7antc73BM1UAVT']",
+      "nextUpdateTime": "2025-09-05T11:00:00Z",
+      "symptom": "The impacted customers in us-west1 region may observe delays or unavailability when querying metrics.",
+      "state": "ACTIVE",
+      "startTime": "2025-09-05T06:19:40.803Z",
+      "relevance": "PARTIALLY_RELATED",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "category": "INCIDENT",
+      "impactedLocations": "['']",
+      "workaround": "None at this time.",
+      "updateTime": "2025-09-05T08:46:50.233158Z",
+      "description": "We are experiencing an  issue with Cloud Monitoring beginning at Thursday, 2025-09-04 23:19 PDT.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Friday, 2025-09-05 04:00 PDT with current details.\n\nWe apologize to all who are affected by the disruption.",
+      "impactedProducts": "['Cloud Monitoring']"
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "event_id": "TYVBVYT",
+        "resource_container": "1076293102351",
+        "location": "global"
+      }
+    },
+    "timestamp": "2025-09-05T08:46:40.760997Z",
+    "labels": {
+      "servicehealth.googleapis.com/updated_fields": "['description']",
+      "servicehealth.googleapis.com/new_event": "false"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-05T08:46:54.883854693Z"
+  },
+  {
+    "insertId": "Nzc5NzI3NjM2",
+    "jsonPayload": {
+      "workaround": "None at this time.",
+      "symptom": "The impacted customers in us-west1 region may observe delays or unavailability when querying metrics.",
+      "endTime": "2025-09-05T10:16:59.489781Z",
+      "detailedState": "RESOLVED",
+      "detailedCategory": "CONFIRMED_INCIDENT",
+      "updateTime": "2025-09-05T10:17:11.646364Z",
+      "startTime": "2025-09-05T06:19:40.803Z",
+      "impactedLocations": "['']",
+      "title": "Cloud Monitoring users may experience an issue in us-west1 region",
+      "category": "INCIDENT",
+      "relevance": "PARTIALLY_RELATED",
+      "impactedProducts": "['Cloud Monitoring']",
+      "state": "CLOSED",
+      "impactedProductIds": "['3zaaDb7antc73BM1UAVT']",
+      "description": "The issue with Cloud Monitoring has been resolved for all affected clusters as of Friday, 2025-09-05 02:40 US/Pacific. \n\nFrom preliminary analysis, the issue was triggered by a single project overloading the query backend.\n\nOur engineers mitigated the issue by blocking the offending project. \nWe thank you for your patience while we worked on resolving the issue.\n",
+      "@type": "type.googleapis.com/google.cloud.servicehealth.logging.v1.EventLog"
+    },
+    "resource": {
+      "type": "servicehealth.googleapis.com/Event",
+      "labels": {
+        "resource_container": "1076293102351",
+        "location": "global",
+        "event_id": "TYVBVYT"
+      }
+    },
+    "timestamp": "2025-09-05T10:17:03.524701Z",
+    "labels": {
+      "servicehealth.googleapis.com/new_event": "false",
+      "servicehealth.googleapis.com/updated_fields": "['description','state']"
+    },
+    "logName": "projects/figsarai-2fe08/logs/servicehealth.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-09-05T10:17:16.901710396Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2404:c0:9c90:0:0:0:b3fa:c928",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE",
+        "pageSize": 500
+      }
+    },
+    "insertId": "14kjmce3b5hq",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-05T12:13:49.480093Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-05T12:13:50.489145620Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "203.78.113.123",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "pageSize": 500,
+        "query": "state:ACTIVE",
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest"
+      }
+    },
+    "insertId": "-ql5nzzdpf1c",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-06T08:33:22.363606Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-06T08:33:22.929288110Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "203.78.113.192",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "pageSize": 500,
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE"
+      }
+    },
+    "insertId": "-yw9ja5e3ibvg",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-06T11:14:57.674278Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-06T11:14:57.771336824Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2400:9800:7c2:7f80:23bb:21eb:5d17:86db",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "query": "state:ACTIVE",
+        "pageSize": 500,
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest"
+      }
+    },
+    "insertId": "-1dpm8xe7v8gw",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-07T00:43:38.408466Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-07T00:43:38.954636398Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2400:9800:7c2:7f80:23bb:21eb:5d17:86db",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "query": "state:ACTIVE AND labels.generative-language=enabled",
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "pageSize": 100
+      }
+    },
+    "insertId": "1ob4xddkjxk",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-07T00:44:28.614811Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-07T00:44:29.295206119Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2400:9800:7c2:2004:88a5:b14e:a4e:3dce",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE",
+        "pageSize": 500
+      }
+    },
+    "insertId": "-vmcy91e2vsge",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-08T15:59:08.892615Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-08T15:59:09.686671518Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "140.213.52.32",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "pageSize": 500,
+        "query": "state:ACTIVE"
+      }
+    },
+    "insertId": "-6md34he3vvi6",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-08T17:59:36.154368Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-08T17:59:36.784604038Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2400:9800:376:d957:1863:784d:a35a:cf19",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "pageSize": 500,
+        "query": "state:ACTIVE",
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest"
+      }
+    },
+    "insertId": "-ql5nzze1k8xi",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-09T02:46:59.023498Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-09T02:46:59.947809343Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "handarusakti@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2400:9800:f1:85ef:1863:836d:4556:a4d8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/figsarai-2fe08",
+      "request": {
+        "query": "state:ACTIVE",
+        "pageSize": 500,
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest"
+      }
+    },
+    "insertId": "5lwvdle9ziuw",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "figsarai-2fe08"
+      }
+    },
+    "timestamp": "2025-09-09T05:58:24.318174Z",
+    "severity": "INFO",
+    "logName": "projects/figsarai-2fe08/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-09-09T05:58:24.805558994Z"
+  }
+]
