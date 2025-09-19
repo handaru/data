@@ -1,7 +1,8 @@
 .DS_Store
 .ipynb_checkpoints
 data.code-workspace
-.venv
+.venv/
+/data_analytics/pyspark_env/
 /datasets/endomondoHR.json
 /datasets/cloud_run_log.json
 /datasets/transactions.csv
